@@ -1,66 +1,81 @@
-<router-outlet></router-outlet>
+
 <div class="infigrade">
+  <header>
   <section class="infigrade__header">
-      <div class="infigrade__header__logo">
-          LOGO
+      <div class="infigrade__header__logo" (click)="navigatetoGivenRoute('')">
+          Infigrade
       </div>
-      <div class="infigrade__header__moreinfo">
-           MoreInfo
+      <div class="infigrade__header__moreinfo" (click)="navigatetoGivenRoute('courses')">
+           Courses
       </div>
   </section>
-  <section class="infigrade__banner-section">
-          <div class="container">
-              <div class="col-lg-7">
-                <div class="card card-transparent">
-                <h2>Get Trained Today. Lead Tomorrow.</h2>
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control infigrade__banner-section__input">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text infigrade__banner-section__input">Search</span>
-                  </div>
-                </div>
-              </div>
-              </div>
-          </div>
-  </section>
-
-
-
-  <section class="container">
-    <div class="infigrade__why">
-        <h2 class="infigrade__why__title">Why Choose us ?</h2>
-        <div class="row m-0">
-          <div class="col-md-6 col-lg-3">
-            <div class="card">
-                  
+</header>
+<router-outlet></router-outlet>
+  <footer>
+    <div class="container-fluid footer">
+      <div class="row m-0">
+        <div class="col-md-2">
+          <ul class="list-group custom-footer-list">
+            <li><h6>Comapny</h6></li>
+            <li>About us</li>
+            <li>Contact us</li>
+            <li>FAQs</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-group custom-footer-list">
+            <li><h6>For Business</h6></li>
+            <li>Corporate Training</li>
+            <li>Request a Quote</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-group custom-footer-list">
+            <li><h6>Work with us</h6></li>
+            <li>Become an instructor</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-group custom-footer-list">
+            <li><h6>Legal</h6></li>
+            <li>Terms and Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Reschedule Policy</li>
+            <li>Refund Policy</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <div class="row m-0">
+            <div class="col-sm-12 list-group">
+              <h6>Contact us</h6>
             </div>
           </div>
+          <div class="row m-0">
+              <div class="col-md-6 p-0">
+                <ul class="list-group custom-footer-list">
+                    <li><h6>Call Us</h6></li>
+                    <li class="contacts">
+                      <img src="../assets/images/india.svg" height="20"> +91 9535462496
+                    </li>
+                    <li class="contacts">
+                        <img src="../assets/images/usa.svg" height="20"> +1 714 515 5562
+                    </li>
+                    <li class="contacts">
+                        <img src="../assets/images/aus.svg" height="20"> +61 1234567890
+                    </li>
+                  </ul>
+              </div>
+              <div class="col-md-6 p-0">
+                  <ul class="list-group custom-footer-list">
+                    <li><h6>Email</h6></li>
+                    <li class="contacts">info@infigrade.com</li>
+                    <li class="contacts">support@infigrade.com</li>
+                  </ul>
+              </div>
+          </div>
         </div>
+      </div>
     </div>
-  </section>
-  <section class="container">
-      <div class="infigrade__modeoflearning">
-            <h2 class="infigrade__modeoflearning__title">Mode of Learning</h2>
-      </div>
-  </section>
-  <section class="container">
-      <div class="infigrade__courses">
-            <h2 class="infigrade__courses__title">Coureses</h2>
-      </div>
-  </section>
-
-  <section class="container">
-      <div class="infigrade__solutions">
-           <h2 class="infigrade__solutions__title">Solutions</h2>
-      </div>
-  </section>
-
-  <section class="container">
-    <div class="infigrade__aboutus">
-        <h2 class="infigrade__aboutus__title">About us</h2>
-    </div>
-  </section>
-
-
+  </footer>
 </div>
 

@@ -1,5 +1,4 @@
 .infigrade{
-
   &__header{
     background-image: linear-gradient(to right top, #7946ee, #1b78ff, #009bff, #00b7ff, #5bcff8);
     display: flex;
@@ -7,10 +6,11 @@
     padding: 10px 30px;
     color:#fff;
     &__logo{
-
+        font-size: 20px;
+        cursor: pointer;
     }
     &__moreinfo{
-
+        cursor: pointer;
     }
   }
   &__banner-section{
@@ -27,28 +27,20 @@
     background-repeat: no-repeat;
     &__input{
       font-size:24px;
+      outline: none;
+      box-shadow: none;
+      border:none;
+    }
+    &__button{
+      background: #0891ff;
+      color: #fff;
     }
   }
   &__why{
     display: flex;
     justify-content: center;
-    &__title{
-      font-weight: 400;
-      color:#444;
-    }
-    &__title:after{
-      content: '.';
-      display: block;
-      height: 1px;
-      width: 90px;
-      margin: 8px auto;
-      text-indent: -9999px;
-      border-top: 3px solid #8b53a2;
-    }
-  }
-
-  &__modeoflearning{
-    display: flex;
+    flex-direction: column;
+    &__titlecontainer{
       justify-content: center;
       &__title{
         font-weight: 400;
@@ -62,6 +54,74 @@
         margin: 8px auto;
         text-indent: -9999px;
         border-top: 3px solid #8b53a2;
+      }
+    }
+    &__customcard{
+      margin: 10px;
+      &__image{
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+        padding: 10px;
+      }
+      &__title{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+      }
+    }
+  }
+
+  &__modeoflearning{
+      display: flex;
+      justify-content: center;
+      padding: 25px 0 0 0;
+      &__title{
+        font-weight: 400;
+        color:#444;
+      }
+      &__title:after{
+        content: '.';
+        display: block;
+        height: 1px;
+        width: 90px;
+        margin: 8px auto;
+        text-indent: -9999px;
+        border-top: 3px solid #8b53a2;
+      }
+      &__customcard{
+        margin: 10px;
+        &__image{
+          height: 100px;
+          width: 100px;
+          margin: 0 auto;
+          padding: 10px;
+        }
+        &__title{
+          font-size: 18px;
+          font-weight: 400;
+          text-align: center;
+        }
+      }
+      &__customcard:after{
+        background: #2da8fb;
+        width: 50%;
+        height: 4px;
+        display: inline-block;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      &__customcard:before{
+        background: #be0e3a;
+        width: 50%;
+        height: 4px;
+        display: inline-block;
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
       }
   }
 
@@ -125,4 +185,87 @@
   margin-top:140px;
   background: inherit;
   border:none;
+}
+
+.footer{
+  background-color: #182549;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.list-group{
+  display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    color:#fff;
+}
+
+.custom-footer-list>li {
+  padding-left: 3px;
+  line-height: 24px;
+  list-style: none;
+}
+
+.contacts{
+  padding: 5px 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .infigrade{
+    &__banner-section{
+      height:300px;
+    }
+  }
+
+}
+
+
+@media only screen and (min-width: 400px) {
+  .infigrade{
+    &__banner-section{
+      height:240px;
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .infigrade{
+    &__banner-section{
+      height:300px;
+    }
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .infigrade{
+    &__banner-section{
+      height:400px;
+    }
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .infigrade{
+    &__banner-section{
+      height:500px;
+    }
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .infigrade{
+    &__banner-section{
+      height:600px;
+    }
+  }
+
 }
