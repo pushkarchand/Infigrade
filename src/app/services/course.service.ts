@@ -10,7 +10,11 @@ export class CourseService {
   /**
    * Enumerate the list of Courses
    */
-  public  enumerateCourses(): Observable<any> {
-      return this.httpClient.get('./assets/configs/courses.json');
+  public enumerateCourses(): Observable<any> {
+    return this.httpClient.get('./assets/configs/courses.json');
   }// public  enumerateCourses(): Observable<any>
+
+  public enumerateClients(): Observable<any> {
+    return this.httpClient.get('./assets/configs/clients.json');
+  }
 }

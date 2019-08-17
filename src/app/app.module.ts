@@ -11,6 +11,7 @@ import { environment } from '../environments/environment';
 import { CourseService } from './services/course.service';
 import { FormsModule } from '@angular/forms';
 import { CoursePipe } from './components/courses/course.pipe';
+import { DragScrollModule } from 'ngx-drag-scroll';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,7 @@ import { CoursePipe } from './components/courses/course.pipe';
     HttpClientModule,
     FormsModule,
     SlickModule.forRoot(),
+    DragScrollModule,
     AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [CourseService],

@@ -22,3 +22,83 @@
     color:#fff;
   }
 }
+
+
+
+
+.card {
+  padding: 10px 5px;
+  box-shadow: 0 4px 4px -4px rgba(0,0,0,0.16);
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  margin: 10px;
+  transition: transform .2s ease;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &__title{
+    color: #fff;
+    font-size: 14px;
+  }
+}
+.card h2, p{
+  text-align: center;
+}
+.subtitle {
+  margin-top: -20px;
+}
+.photo-container {
+  padding: 1.25rem;
+}
+svg {
+  margin-top: -10px;
+  fill: #fff;
+}
+.description {
+  padding: 2rem 1rem 0 1rem;
+}
+.card:hover .card-overlay{
+  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.5);
+  transform: scale(1.12);
+  height: 20%;
+}
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  overflow: hidden;
+}
+.card-overlay-heading {
+  padding-top: 1rem;
+  left: 50%;
+  position: absolute;
+  color: #141414;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.firstCard{
+  background-image: linear-gradient(to right bottom, #97b6e3, #aaabe2, #c29ed8, #d990c4, #e984a7);
+}
+
+.secondCard{
+  background-image: linear-gradient(to right bottom, #97b6e3, #5ec8f1, #00d9e4, #3ce5bb, #91e984);
+}
+
+.thirdCard{
+  background-image: linear-gradient(to right bottom, #cc97e3, #ff96c2, #ffa69b, #ffc47f, #e9e584);
+}
+
+.fourthCard{
+  background-image: linear-gradient(to right bottom, #5a42b3, #9d3b9e, #c34186, #d65670, #dc7262);
+}

@@ -11,10 +11,19 @@
   </div> -->
   <div class="row">
     <div class="col-md-3" *ngFor="let course of listOfCourses;let i=index;">
-       <div class="card customcard">
+       <!-- <div class="card customcard">
              <img [src]="course.imageUrl" height=50 width=50>
              <p class="customcard__title">{{course.name}}</p>
-       </div>
-    </div>
+       </div> -->
+       <div class="card" [ngClass]="{'firstCard': i%4===0,'secondCard': i%4===1,'thirdCard': i%4===2,'fourthCard': i%4===3}">
+          <div class="photo-container">
+              <img [src]="course.imageUrl" height=50 width=50>
+          </div>
+          <div class="card__title">{{course.name}}</div>
+          <div class="card-overlay">
+              <div class="card-overlay-heading">Know More..</div>
+          </div>
+         </div>
+      </div>
   </div>
 </div>

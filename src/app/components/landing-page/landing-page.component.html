@@ -75,23 +75,35 @@
 </div>
 </section>
 
-<!-- <section class="container">
+<section class="container">
 <div class="row m-0 infigrade__courses">
       <h2 class="infigrade__courses__title">Coureses</h2>
 </div>
 
 <div class="row m-0">
-
-</div>
-</section> -->
-
-<!-- <section class="container">
-<div class="infigrade__solutions">
-     <h2 class="infigrade__solutions__title">Solutions</h2>
+  <drag-scroll #courses>
+    <div class="courseitem" *ngFor="let course of listOfCourses;">
+        <img drag-scroll-item [src]="course.imageUrl"/>
+        <p class="courseitem__title">{{course.name}}</p>
+    </div>
+  </drag-scroll>
 </div>
 </section>
 
 <section class="container">
+    <div class="row m-0 infigrade__clients">
+        <h2 class="infigrade__clients__title">Clients</h2>
+    </div>
+    <div class="row m-0">
+        <drag-scroll #clients>
+          <div class="clienteitem" *ngFor="let client of listOfClients;">
+              <img drag-scroll-item [src]="client.imageUrl"/>
+          </div>
+        </drag-scroll>
+      </div>
+</section>
+
+<!-- <section class="container">
 <div class="infigrade__aboutus">
   <h2 class="infigrade__aboutus__title">About us</h2>
 </div>

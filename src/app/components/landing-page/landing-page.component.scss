@@ -142,7 +142,7 @@
     }
   }
 
-  &__solutions{
+  &__clients{
     display: flex;
     justify-content: center;
     &__title{
@@ -267,4 +267,33 @@
     }
   }
 
+}
+
+::ng-deep .drag-scroll-content{
+    display: flex !important;
+}
+
+.courseitem{
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  img{
+    padding: 10px 30px;
+    height: 125px;
+    width:125px;
+    margin:0 auto;
+  }
+  &__title{
+    font-size:12px;
+    white-space: normal;
+    text-align: center;
+  }
+}
+
+.clienteitem{
+  padding:20px 30px;
+  img{
+    height:100px;
+    width:100px;
+  }
 }
