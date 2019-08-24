@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CoursesComponent } from './components/courses/courses.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { AboutusComponent } from './components/aboutus/aboutus.component';
 
 const routes: Routes = [
   { path: '', component: LandingPageComponent },
-  { path: 'courses', component: CoursesComponent }
+  { path: 'courses', component: CoursesComponent },
+  { path: 'aboutus', component: AboutusComponent }
 ];
 
 @NgModule({

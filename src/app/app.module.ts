@@ -12,12 +12,14 @@ import { CourseService } from './services/course.service';
 import { FormsModule } from '@angular/forms';
 import { CoursePipe } from './components/courses/course.pipe';
 import { DragScrollModule } from 'ngx-drag-scroll';
+import { AboutusComponent } from './components/aboutus/aboutus.component';
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
     CoursesComponent,
-    CoursePipe
+    CoursePipe,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,30 @@
+.courses{
+  background: url(../../../assets/images/courses.jpg);
+  height: 275px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  &__overlay{
+    opacity: .85;
+    background-image: linear-gradient(-180deg,rgba(0,0,0,.46) 0,#000 100%);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+  }
+  &__content{
+    color: #fff;
+    z-index: 1;
+    font-size: 19px;
+    text-align: center;
+  }
+}
+
 .customcard{
   margin:10px 0;
   padding: 10px;
@@ -12,7 +39,7 @@
 }
 
 .coursecontainer{
-  padding: 10px 0;
+  padding: 35px 0;
   &__input{
     outline: none;
     box-shadow: none;
@@ -20,6 +47,15 @@
   &__search{
     background: #00a4ff;
     color:#fff;
+  }
+  &__title{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    h3{
+      border-bottom:3px solid #5a42b3;
+    }
+
   }
 }
 
@@ -37,8 +73,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  background: #3875c126;
   &__title{
-    color: #fff;
+    color: #444;
     font-size: 14px;
   }
 }
@@ -87,18 +124,37 @@ svg {
   cursor: pointer;
 }
 
-.firstCard{
-  background-image: linear-gradient(to right bottom, #97b6e3, #aaabe2, #c29ed8, #d990c4, #e984a7);
+@media only screen and (min-width: 320px) {
+  .courses{
+    &__content{
+      font-size: 14px;
+    }
+  }
 }
 
-.secondCard{
-  background-image: linear-gradient(to right bottom, #97b6e3, #5ec8f1, #00d9e4, #3ce5bb, #91e984);
+
+@media only screen and (min-width: 480px) {
+  .courses{
+    &__content{
+      font-size: 14px;
+    }
+  }
 }
 
-.thirdCard{
-  background-image: linear-gradient(to right bottom, #cc97e3, #ff96c2, #ffa69b, #ffc47f, #e9e584);
+
+@media only screen and (min-width: 600px) {
+  .courses{
+    &__content{
+      font-size: 14px;
+    }
+  }
 }
 
-.fourthCard{
-  background-image: linear-gradient(to right bottom, #5a42b3, #9d3b9e, #c34186, #d65670, #dc7262);
+
+@media only screen and (min-width: 900px) {
+  .courses{
+    &__content{
+      font-size: 16px;
+    }
+  }
 }

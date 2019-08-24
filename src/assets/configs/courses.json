@@ -1,7 +1,7 @@
 {
   "courses":[
                   {
-                    "name":"Project Management Professional (PMP®)",
+                    "name":"Digital Marketing",
                     "type":"PROJECTMANAGMENT",
                     "price":"10000",
                     "discountedprice":"8999",
@@ -10,7 +10,7 @@
                     "imageUrl":"assets/images/PMP1.png"
                   },
                   {
-                    "name":"Certified Associate in Project Management (CAPM)®",
+                    "name":"National Institute of Securities markets ( NISM )",
                     "type":"PROJECTMANAGMENT",
                     "price":"10000",
                     "discountedprice":"8999",
@@ -19,7 +19,7 @@
                     "imageUrl":"assets/images/capm1.png"
                   },
                   {
-                    "name":"PRINCE2® Foundation Training",
+                    "name":"Six Sigma",
                     "type":"PROJECTMANAGMENT",
                     "price":"10000",
                     "discountedprice":"8999",
@@ -28,7 +28,7 @@
                     "imageUrl":"assets/images/PRINCE2.png"
                   },
                   {
-                    "name":"PRINCE2® Practitioner Training",
+                    "name":"Advance Excel",
                     "type":"PROJECTMANAGMENT",
                     "price":"10000",
                     "discountedprice":"8999",
@@ -37,7 +37,7 @@
                     "imageUrl":"assets/images/PRINCE2.png"
                   },
                   {
-                    "name":"Microsoft® Projects Training and Certification",
+                    "name":"SPSS Tool (Statistical Package for Social Sciences)",
                     "type":"PROJECTMANAGMENT",
                     "price":"10000",
                     "discountedprice":"8999",
@@ -46,7 +46,7 @@
                     "imageUrl":"assets/images/Microsoft_Office_Project1.png"
                   },
                   {
-                    "name":"Portfolio Management Professional (PfMP) Training",
+                    "name":"Salesforce",
                     "type":"PROJECTMANAGMENT",
                     "price":"10000",
                     "discountedprice":"8999",
@@ -55,7 +55,7 @@
                     "imageUrl":"assets/images/pfmp1.png"
                   },
                   {
-                    "name":"PRINCE2 Foundation and Practitioner Training",
+                    "name":"Selenium Training",
                     "type":"PROJECTMANAGMENT",
                     "price":"10000",
                     "discountedprice":"8999",
@@ -64,7 +64,7 @@
                     "imageUrl":"assets/images/PRINCE2.png"
                   },
                   {
-                    "name":"Program Management Professional (PgMP)® Training",
+                    "name":"Human resources",
                     "type":"PROJECTMANAGMENT",
                     "price":"10000",
                     "discountedprice":"8999",
@@ -73,7 +73,7 @@
                     "imageUrl":"assets/images/pgmp1.png"
                   },
                   {
-                    "name":"Lean Six Sigma Green Belt (SSGB) Training",
+                    "name":"Python",
                     "type":"QUALITYMANAGMENT",
                     "price":"15999",
                     "discountedprice":"10999",
@@ -82,7 +82,7 @@
                     "imageUrl":"assets/images/SSGB1.png"
                   },
                   {
-                    "name":"Lean Six Sigma Black Belt (SSBB) Training",
+                    "name":"Internet of Things (IoT)",
                     "type":"QUALITYMANAGMENT",
                     "price":"19999",
                     "discountedprice":"15999",
@@ -91,7 +91,7 @@
                     "imageUrl":"assets/images/SSBB1.png"
                   },
                   {
-                    "name":"Minitab®",
+                    "name":"Android App Development",
                     "type":"QUALITYMANAGMENT",
                     "price":"20000",
                     "discountedprice":"16000",
@@ -100,7 +100,7 @@
                     "imageUrl":"assets/images/minitab1.png"
                   },
                   {
-                    "name":"Big Data Hadoop",
+                    "name":"Cloud Computing",
                     "type":"BIGDATAANALYTICS",
                     "price":"",
                     "discountedprice":"",
@@ -109,7 +109,7 @@
                     "imageUrl":"assets/images/BD_hadoop1.png"
                   },
                   {
-                    "name":"Data Science with R Programming",
+                    "name":"Artificial Intelligence",
                     "type":"BIGDATAANALYTICS",
                     "price":"",
                     "discountedprice":"",
@@ -118,7 +118,7 @@
                     "imageUrl":"assets/images/r-data-science1.png"
                   },
                   {
-                    "name":"Data Analysis and Machine Learning using Python",
+                    "name":"Robotics",
                     "type":"BIGDATAANALYTICS",
                     "price":"",
                     "discountedprice":"",
@@ -127,7 +127,7 @@
                     "imageUrl":"assets/images/python-icon1.png"
                   },
                   {
-                    "name":"AWS Solution Architect Training",
+                    "name":"Ethical Hacking",
                     "type":"CLOUDCOMPUTING",
                     "price":"",
                     "discountedprice":"",
@@ -136,7 +136,7 @@
                     "imageUrl":"assets/images/aws1.png"
                   },
                   {
-                    "name":"DevOps Training and Certification",
+                    "name":"Ruby on Rails (RoR)",
                     "type":"CLOUDCOMPUTING",
                     "price":"",
                     "discountedprice":"",
@@ -145,7 +145,7 @@
                     "imageUrl":"assets/images/DevOps1.png"
                   },
                   {
-                    "name":"Microsoft Azure",
+                    "name":"Big Data Analytics",
                     "type":"CLOUDCOMPUTING",
                     "price":"",
                     "discountedprice":"",
@@ -154,7 +154,7 @@
                     "imageUrl":"assets/images/microsoft-azure-icon21.png"
                   },
                   {
-                    "name":"Google Cloud Platform",
+                    "name":"Data science with R Programming",
                     "type":"CLOUDCOMPUTING",
                     "price":"",
                     "discountedprice":"",
@@ -163,7 +163,7 @@
                     "imageUrl":"assets/images/google_cloud1.png"
                   },
                   {
-                    "name":"ITIL® Foundation",
+                    "name":"Communication Skills and Soft skills",
                     "type":"ITSERVICEANDARCHITECTURE",
                     "price":"",
                     "discountedprice":"",
@@ -172,130 +172,31 @@
                     "imageUrl":"assets/images/ITIL_F1.png"
                   },
                   {
-                    "name":"ITIL® Practitioner",
+                    "name":"Civil CAD",
                     "type":"ITSERVICEANDARCHITECTURE",
                     "price":"",
-                    "discountedprice":"ITIL® Practitioner",
+                    "discountedprice":"Civil CAD",
                     "description":"",
                     "displaytext":"",
                     "imageUrl":"assets/images/ITIL_P1.png"
                   },
                   {
-                    "name":"Certified ScrumMaster®(CSM) Certification Training",
+                    "name":"Cyber Security",
                     "type":"AGILEANDSCRUM",
                     "price":"",
                     "discountedprice":"",
                     "description":"",
-                    "displaytext":"Certified ScrumMaster®(CSM) Certification Training",
+                    "displaytext":"Cyber Security",
                     "imageUrl":"assets/images/CSM1.png"
                   },
                   {
-                    "name":"Certified Scrum Product Owner (CSPO)",
+                    "name":"Raspberry Pi",
                     "type":"AGILEANDSCRUM",
                     "price":"",
                     "discountedprice":"",
                     "description":"",
-                    "displaytext":"Certified Scrum Product Owner (CSPO)",
+                    "displaytext":"Raspberry Pi",
                     "imageUrl":"assets/images/cspo1.png"
-                  },
-                  {
-                    "name":"PMI-ACP® (Agile Certified Practitioner)",
-                    "type":"AGILEANDSCRUM",
-                    "price":"",
-                    "discountedprice":"",
-                    "description":"",
-                    "displaytext":"PMI-ACP® (Agile Certified Practitioner)",
-                    "imageUrl":"assets/images/pmi_acp1.png"
-                  },
-                  {
-                    "name":"Professional Scrum Product Owner ™ (PSPO)",
-                    "type":"AGILEANDSCRUM",
-                    "price":"",
-                    "discountedprice":"",
-                    "description":"",
-                    "displaytext":"Professional Scrum Product Owner ™ (PSPO)",
-                    "imageUrl":"assets/images/pspo1.png"
-                  },
-                  {
-                    "name":"Professional Scrum Master ™ (PSM)",
-                    "type":"AGILEANDSCRUM",
-                    "price":"",
-                    "discountedprice":"",
-                    "description":"",
-                    "displaytext":"Professional Scrum Master ™ (PSM)",
-                    "imageUrl":"assets/images/psm1.png"
-                  },
-                  {
-                    "name":"Advanced Web Analytics Specialist Training",
-                    "type":"DIGITALMARKETING",
-                    "price":"",
-                    "discountedprice":"",
-                    "description":"",
-                    "displaytext":"Advanced Web Analytics Specialist Training",
-                    "imageUrl":"assets/images/web-analytics1.png"
-                  },
-                  {
-                    "name":"Advanced Content Marketing Specialist Training",
-                    "type":"DIGITALMARKETING",
-                    "price":"",
-                    "discountedprice":"",
-                    "description":"",
-                    "displaytext":"Advanced Content Marketing Specialist Training",
-                    "imageUrl":"assets/images/Content-Marketing1.png"
-                  },
-                  {
-                    "name":"Digital Marketing Training and Certification",
-                    "type":"DIGITALMARKETING",
-                    "price":"",
-                    "discountedprice":"",
-                    "description":"",
-                    "displaytext":"Digital Marketing Training and Certification",
-                    "imageUrl":"assets/images/Digital-Marketing-1.png"
-                  },
-                  {
-                    "name":"Email Marketing Specialist Training",
-                    "type":"DIGITALMARKETING",
-                    "price":"",
-                    "discountedprice":"",
-                    "description":"",
-                    "displaytext":"Email Marketing Specialist Training",
-                    "imageUrl":"assets/images/email1.png"
-                  },
-                  {
-                    "name":"Pay Per Click (PPC) Specialist",
-                    "type":"DIGITALMARKETING",
-                    "price":"",
-                    "discountedprice":"",
-                    "description":"",
-                    "displaytext":"Pay Per Click (PPC) Specialist",
-                    "imageUrl":"assets/images/ppc1.png"
-                  },
-                  {
-                    "name":"Search Engine Optimization (SEO) Specialist",
-                    "type":"DIGITALMARKETING",
-                    "price":"",
-                    "discountedprice":"",
-                    "description":"",
-                    "displaytext":"Search Engine Optimization (SEO) Specialist",
-                    "imageUrl":"assets/images/seo1.png"
-                  },
-                  {
-                    "name":"Social Media Specialist Training",
-                    "type":"DIGITALMARKETING",
-                    "price":"",
-                    "discountedprice":"",
-                    "description":"",
-                    "displaytext":"Social Media Specialist Training",
-                    "imageUrl":"assets/images/social_media1.png"
-                  },
-                  {
-                    "name":"NISM V Training",
-                    "type":"STOCKMARKET",
-                    "price":"",
-                    "discountedprice":"",
-                    "description":"",
-                    "displaytext":"NISM V Training",
-                    "imageUrl":"assets/images/stock.png"
                   }
   ]
 }

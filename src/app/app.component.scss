@@ -1,16 +1,33 @@
 .infigrade{
+  width: 100vw;
+  height: 100%;
   &__header{
-    background-image: linear-gradient(to right top, #7946ee, #1b78ff, #009bff, #00b7ff, #5bcff8);
+    background: #f2f2f2;
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
-    color:#fff;
+    color: #3f9bee;
+    box-shadow: -3px 8px 9px 0 rgba(0,0,0,.13);
+
     &__logo{
         font-size: 20px;
         cursor: pointer;
+        &__icon{
+          width:15%;
+        }
     }
     &__moreinfo{
         cursor: pointer;
+        width:100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        span{
+          padding: 0 20px;
+          font-size: 16px;
+          font-weight: 600;
+          color: #5da8c3;
+        }
     }
   }
   &__banner-section{
@@ -189,8 +206,9 @@
 
 .footer{
   background-color: #182549;
-  margin: 0;
   padding: 20px 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 .list-group{
@@ -199,33 +217,51 @@
     padding-left: 0;
     margin-bottom: 0;
     color:#fff;
+    text-align: center;
 }
 
 .custom-footer-list>li {
   padding-left: 3px;
   line-height: 24px;
   list-style: none;
+  font-size: 14px;
 }
 
-.contacts{
+.email{
   padding: 5px 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  &__mail{
+    padding: 0 10px;
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 320px) {
   .infigrade{
-    &__banner-section{
-      height:300px;
+    &__header{
+      padding: 10px 10px;
+      &__logo{
+        &__icon{
+            width:75%;
+        }
+      }
     }
   }
 
 }
 
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 480px) {
   .infigrade{
-    &__banner-section{
-      height:240px;
+    &__header{
+      padding: 10px 15px;
+      &__logo{
+        &__icon{
+          width:50%;
+        }
+      }
     }
   }
 }
@@ -233,39 +269,81 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .infigrade{
-    &__banner-section{
-      height:300px;
+    &__header{
+      padding: 10px 20px;
+      &__logo{
+        &__icon{
+          width:30%;
+        }
+      }
     }
   }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .infigrade{
-    &__banner-section{
-      height:400px;
+    &__header{
+      &__logo{
+        &__icon{
+
+        }
+      }
     }
   }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 900px) {
   .infigrade{
-    &__banner-section{
-      height:500px;
+    &__header{
+      &__logo{
+        &__icon{
+
+        }
+      }
     }
   }
-
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .infigrade{
-    &__banner-section{
-      height:600px;
-    }
-  }
 
+
+.contacts{
+  display: flex;
+  justify-content: center;
+  &__item{
+    margin: 0 10px 0 10px;
+    font-size:20px;
+  }
+}
+
+.disclaimerseprator{
+  border-top: 1px solid #f2f2f2;
+    margin: 10px 20px;
+}
+.disclaimerlist{
+  display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin: 0;
+    color:#9E9E9E;
+    text-align: left;
+    padding: 10px 20px;
+    list-style: none;
+    &__item{
+      font-size:12px;
+    }
+}
+
+.mailfooterlist{
+  display: flex;
+  justify-content: center;
+}
+
+.copyrights{
+  display: flex;
+  justify-content: center;
+  color:#9E9E9E;
+  font-size: 14px;
 }

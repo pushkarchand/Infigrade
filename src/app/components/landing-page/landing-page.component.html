@@ -17,80 +17,122 @@
 
 
 
-<section class="container">
+<section class="container ladingcontainer">
 <div class="infigrade__why">
   <div class="row m-0 infigrade__why__titlecontainer">
       <h2 class="infigrade__why__titlecontainer__title">Why Choose us ?</h2>
   </div>
-  <div class="row m-0">
+  <div class="row m-0 infigrade__why__list">
 
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-6 col-lg-2 ml-5 mr-5">
       <div class="card infigrade__why__customcard">
         <img src="../assets/images/accredited-courseware.png" class="infigrade__why__customcard__image">
-        <p class="infigrade__why__customcard__title">Accredited Courseware</p>
+        <p class="infigrade__why__customcard__title">Hands-On Training</p>
       </div>
     </div>
 
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-6 col-lg-2 ml-5 mr-5">
         <div class="card infigrade__why__customcard">
           <img src="../assets/images/customer-support.png" class="infigrade__why__customcard__image">
-          <p class="infigrade__why__customcard__title">24X7 Customer Support</p>
+          <p class="infigrade__why__customcard__title">Flexibility</p>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-4">
+      <div class="col-md-6 col-lg-2 ml-5 mr-5">
+          <div class="card infigrade__why__customcard">
+            <img src="../assets/images/world-class-trainers.png" class="infigrade__why__customcard__image">
+            <p class="infigrade__why__customcard__title">World class trainers</p>
+          </div>
+      </div>
+
+      <div class="col-md-6 col-lg-2 ml-5 mr-5">
+          <div class="card infigrade__why__customcard">
+            <img src="../assets/images/world-class-trainers.png" class="infigrade__why__customcard__image">
+            <p class="infigrade__why__customcard__title">Job Assistance</p>
+          </div>
+      </div>
+
+      <div class="col-md-6 col-lg-2 ml-5 mr-5">
+          <div class="card infigrade__why__customcard">
+            <img src="../assets/images/world-class-trainers.png" class="infigrade__why__customcard__image">
+            <p class="infigrade__why__customcard__title">24 X 7  support</p>
+          </div>
+      </div>
+
+      <!-- <div class="col-md-6 col-lg-2">
           <div class="card infigrade__why__customcard">
             <img src="../assets/images/world-class-trainers.png" class="infigrade__why__customcard__image">
             <p class="infigrade__why__customcard__title">Best in business Trainers</p>
           </div>
-      </div>
+      </div> -->
   </div>
 </div>
 </section>
-<section class="container">
+<section class="container ladingcontainer">
 <div class="row m-0 infigrade__modeoflearning">
       <h2 class="infigrade__modeoflearning__title">Mode of Learning</h2>
 </div>
 <div class="row m-0">
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-6">
         <div class="card infigrade__modeoflearning__customcard">
           <img src="../assets/images/classroom-training.png" class="infigrade__modeoflearning__customcard__image">
           <p class="infigrade__modeoflearning__customcard__title">Class room training</p>
         </div>
     </div>
 
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-6">
         <div class="card infigrade__modeoflearning__customcard">
           <img src="../assets/images/lvc.png" class="infigrade__modeoflearning__customcard__image">
           <p class="infigrade__modeoflearning__customcard__title">Live online training</p>
         </div>
     </div>
 
-    <div class="col-md-6 col-lg-4">
+    <!-- <div class="col-md-6">
         <div class="card infigrade__modeoflearning__customcard">
           <img src="../assets/images/e-learning.png" class="infigrade__modeoflearning__customcard__image">
           <p class="infigrade__why__customcard__title">E-Learinig</p>
         </div>
-    </div>
+    </div> -->
 </div>
 </section>
 
-<section class="container">
+<section class="container ladingcontainer">
 <div class="row m-0 infigrade__courses">
-      <h2 class="infigrade__courses__title">Coureses</h2>
+      <h2 class="infigrade__courses__title">Popular Coureses</h2>
 </div>
 
 <div class="row m-0">
   <drag-scroll #courses>
-    <div class="courseitem" *ngFor="let course of listOfCourses;">
+    <div class="courseitem" *ngFor="let course of listOfCourses|slice:0:5;">
         <img drag-scroll-item [src]="course.imageUrl"/>
         <p class="courseitem__title">{{course.name}}</p>
     </div>
   </drag-scroll>
 </div>
+<div class="row m-0 infigrade__knowmorecourses">
+    <button class="btn btn-primary" (click)="navigatetoGivenRoute('courses')">Know more</button>
+</div>
 </section>
 
-<section class="container">
+<section class="container ladingcontainer">
+    <div class="row m-0 infigrade__aboutus">
+      <h2 class="infigrade__aboutus__title">Customer Reviews</h2>
+    </div>
+    <div class="row m-0 infigrade__scroll">
+      <span class="fa fa-angle-left infigrade__scroll__left" (click)="previousReview()"></span>
+      <span class="fa fa-angle-right infigrade__scroll__right"(click)="nextReview()"></span>
+        <drag-scroll #reviews [scrollbar-hidden]="dragscroll">
+            <div class="testimonial-wrapper" *ngFor="let reviewItem of listOfUserReviews">
+                <div class="testimonial">
+                  <p class="quote"> " {{reviewItem.review}} "</p>
+                  <p class="attribution">-{{reviewItem.username}} </p>
+                </div>
+            </div>
+      </drag-scroll>
+    </div>
+</section>
+
+<section class="container ladingcontainer">
     <div class="row m-0 infigrade__clients">
         <h2 class="infigrade__clients__title">Clients</h2>
     </div>
@@ -100,13 +142,9 @@
               <img drag-scroll-item [src]="client.imageUrl"/>
           </div>
         </drag-scroll>
-      </div>
+    </div>
 </section>
 
-<!-- <section class="container">
-<div class="infigrade__aboutus">
-  <h2 class="infigrade__aboutus__title">About us</h2>
-</div>
-</section> -->
+
 
 </div>

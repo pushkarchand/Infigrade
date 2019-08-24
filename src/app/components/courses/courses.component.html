@@ -1,21 +1,21 @@
+<div class="courses">
+  <div class="courses__overlay"></div>
+  <div class="container courses__content">
+      Infigrade is now focusing on students and looking for an opportunity to benefit them a platform to gain valuable skills, experience and knowledge which can be applicable in professional environment. We are fully equipped to fill the students of various colleges and universities with the knowledge of top trending courses which can be applied in banking , financial services, IT, HR, marketing, and many more industries.
+  </div>
+</div>
+
 <div class="container coursecontainer">
-  <!-- <div class="row">
-    <div class="col-md-6">
-      <div class="input-group mb-3">
-          <input type="text" [(ngModel)]="searchName" class="form-control coursecontainer__input">
-          <div class="input-group-prepend">
-            <span class="input-group-text coursecontainer__search">Search</span>
-          </div>
-        </div>
-    </div>
-  </div> -->
-  <div class="row">
-    <div class="col-md-3" *ngFor="let course of listOfCourses;let i=index;">
+  <div class="row m-0 coursecontainer__title">
+    <h3>Infigrade Offers </h3>
+  </div>
+  <div class="row m-0 pt-4">
+    <div class="col-md-6 col-lg-4" *ngFor="let course of listOfCourses;let i=index;">
        <!-- <div class="card customcard">
              <img [src]="course.imageUrl" height=50 width=50>
              <p class="customcard__title">{{course.name}}</p>
        </div> -->
-       <div class="card" [ngClass]="{'firstCard': i%4===0,'secondCard': i%4===1,'thirdCard': i%4===2,'fourthCard': i%4===3}">
+       <div class="card">
           <div class="photo-container">
               <img [src]="course.imageUrl" height=50 width=50>
           </div>

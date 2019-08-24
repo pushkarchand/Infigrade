@@ -3,53 +3,35 @@
   <header>
   <section class="infigrade__header">
       <div class="infigrade__header__logo" (click)="navigatetoGivenRoute('')">
-          Infigrade
+       <img src="../assets/images/logo.jpeg" class="infigrade__header__logo__icon">
       </div>
-      <div class="infigrade__header__moreinfo" (click)="navigatetoGivenRoute('courses')">
-           Courses
+      <div class="infigrade__header__moreinfo">
+           <span (click)="navigatetoGivenRoute('courses')">
+              Courses
+           </span>
+           <span (click)="navigatetoGivenRoute('aboutus')">
+              Aboutus
+           </span>
       </div>
   </section>
 </header>
 <router-outlet></router-outlet>
   <footer>
-    <div class="container-fluid footer">
+    <div class="footer">
       <div class="row m-0">
-        <div class="col-md-2">
-          <ul class="list-group custom-footer-list">
-            <li><h6>Comapny</h6></li>
-            <li>About us</li>
-            <li>Contact us</li>
-            <li>FAQs</li>
-          </ul>
-        </div>
-        <div class="col-md-2">
-          <ul class="list-group custom-footer-list">
-            <li><h6>For Business</h6></li>
-            <li>Corporate Training</li>
-            <li>Request a Quote</li>
-          </ul>
-        </div>
-        <div class="col-md-2">
-          <ul class="list-group custom-footer-list">
-            <li><h6>Work with us</h6></li>
-            <li>Become an instructor</li>
-          </ul>
-        </div>
-        <div class="col-md-2">
-          <ul class="list-group custom-footer-list">
-            <li><h6>Legal</h6></li>
-            <li>Terms and Conditions</li>
-            <li>Privacy Policy</li>
-            <li>Reschedule Policy</li>
-            <li>Refund Policy</li>
-          </ul>
-        </div>
         <div class="col-md-4">
-          <div class="row m-0">
-            <div class="col-sm-12 list-group">
-              <h6>Contact us</h6>
-            </div>
-          </div>
+              <div class="col-sm-12 list-group">
+                <h6>Connect with us</h6>
+                <div class="contacts">
+                    <i class="fa fa-facebook-square contacts__item" aria-hidden="true"></i>
+                    <i class="fa fa-twitter-square contacts__item" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin-square contacts__item" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-square contacts__item" aria-hidden="true"></i>
+                    <i class="fa fa-instagram contacts__item" aria-hidden="true"></i>
+                </div>
+              </div>
+        </div>
+      <div class="col-md-8">
           <div class="row m-0">
               <div class="col-md-6 p-0">
                 <ul class="list-group custom-footer-list">
@@ -57,23 +39,34 @@
                     <li class="contacts">
                       <img src="../assets/images/india.svg" height="20"> +91 9535462496
                     </li>
-                    <li class="contacts">
-                        <img src="../assets/images/usa.svg" height="20"> +1 714 515 5562
-                    </li>
-                    <li class="contacts">
-                        <img src="../assets/images/aus.svg" height="20"> +61 1234567890
-                    </li>
                   </ul>
               </div>
-              <div class="col-md-6 p-0">
+              <div class="col-md-6 p-0 mailfooterlist">
                   <ul class="list-group custom-footer-list">
                     <li><h6>Email</h6></li>
-                    <li class="contacts">info@infigrade.com</li>
-                    <li class="contacts">support@infigrade.com</li>
+                    <li class="email"><i class="fa fa-envelope-o email__mail" aria-hidden="true"></i> info@infigrade.com</li>
+                    <li class="email"><i class="fa fa-envelope-o email__mail" aria-hidden="true"></i> support@infigrade.com</li>
                   </ul>
               </div>
           </div>
         </div>
+      </div>
+      <hr class="disclaimerseprator">
+      <div class="row m-0">
+          <ul class="disclaimerlist">
+            <li><h6>Disclaimer</h6></li>
+            <li><span class="disclaimerlist__item">PMP®, PMI®, PMBOK®, CAPM®, PgMP®, PfMP®, PMI-ACP® are registered marks of the Project Management Institute, Inc.</span></li>
+            <li><span class="disclaimerlist__item">PMI® related Training courses are provided by VMedu – ProjStudy</span></li>
+            <li><span class="disclaimerlist__item">PRINCE2® and ITIL® is a registered trade mark of AXELOS Limited</span></li>
+            <li><span class="disclaimerlist__item">IT Infrastructure Library® is a registered trade mark of AXELOS Limited</span></li>
+            <li><span class="disclaimerlist__item">All the online courses are accredited by respective governing bodies and belong to their respective owners</span></li>
+            <li><span class="disclaimerlist__item">CSM®, CSPO®, A-CSPO®, A-CSM® are registered trademarks of Scrum Alliance</span></li>
+            <li><span class="disclaimerlist__item">PSM &amp; PSPO are the registered trademark of Scrum.org</span></li>
+            <li><span class="disclaimerlist__item">CISCO®, CCNA®, and CCNP® are trademarks of Cisco</span></li>
+          </ul>
+      </div>
+      <div class="row copyrights">
+          Copyright © 2019 - 20 Infigrade. All rights reserved.
       </div>
     </div>
   </footer>
