@@ -236,55 +236,6 @@
 }
 
 
-@media only screen and (min-width: 320px) {
-  .infigrade{
-    &__banner-section{
-      height:140px;
-    }
-  }
-
-}
-
-
-@media only screen and (min-width: 480px) {
-  .infigrade{
-    &__banner-section{
-      height:150px;
-    }
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .infigrade{
-    &__banner-section{
-      height:250px;
-    }
-  }
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .infigrade{
-    &__banner-section{
-      height:300px;
-    }
-  }
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 900px) {
-  .infigrade{
-    &__banner-section{
-      height:400px;
-    }
-  }
-
-}
-
-
 ::ng-deep .drag-scroll-content{
     display: flex !important;
 }
@@ -356,4 +307,85 @@
 
 .ladingcontainer{
   padding: 20px 0;
+}
+
+
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .infigrade{
+    &__banner-section{
+      height:500px;
+    }
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .infigrade{
+    &__banner-section{
+      height:400px;
+    }
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .infigrade{
+    &__banner-section{
+      height:350px;
+    }
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .infigrade{
+    &__banner-section{
+      height:350px;
+    }
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .infigrade{
+    &__banner-section{
+      height:250px;
+    }
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .infigrade{
+    &__banner-section{
+      height:150px;
+    }
+  }
 }

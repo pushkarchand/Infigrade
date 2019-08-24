@@ -1,5 +1,4 @@
 .infigrade{
-  width: 100vw;
   height: 100%;
   &__header{
     background: #f2f2f2;
@@ -8,7 +7,6 @@
     padding: 10px 30px;
     color: #3f9bee;
     box-shadow: -3px 8px 9px 0 rgba(0,0,0,.13);
-
     &__logo{
         font-size: 20px;
         cursor: pointer;
@@ -237,78 +235,6 @@
   }
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 320px) {
-  .infigrade{
-    &__header{
-      padding: 10px 10px;
-      &__logo{
-        &__icon{
-            width:75%;
-        }
-      }
-    }
-  }
-
-}
-
-
-@media only screen and (min-width: 480px) {
-  .infigrade{
-    &__header{
-      padding: 10px 15px;
-      &__logo{
-        &__icon{
-          width:50%;
-        }
-      }
-    }
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .infigrade{
-    &__header{
-      padding: 10px 20px;
-      &__logo{
-        &__icon{
-          width:30%;
-        }
-      }
-    }
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .infigrade{
-    &__header{
-      &__logo{
-        &__icon{
-
-        }
-      }
-    }
-  }
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 900px) {
-  .infigrade{
-    &__header{
-      &__logo{
-        &__icon{
-
-        }
-      }
-    }
-  }
-}
-
-
-
 .contacts{
   display: flex;
   justify-content: center;
@@ -346,4 +272,142 @@
   justify-content: center;
   color:#9E9E9E;
   font-size: 14px;
+}
+
+
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .infigrade{
+    &__header{
+      padding: 10px 60px;
+      &__logo{
+        &__icon{
+            width:25%;
+        }
+      }
+    }
+    &__banner-section{
+          height:600px;
+    }
+  }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .infigrade{
+    &__header{
+      padding: 15px 25px;
+      &__logo{
+        &__icon{
+            width:25%;
+        }
+      }
+    }
+    &__banner-section{
+        height:600px;
+    }
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .infigrade{
+    &__header{
+      padding: 15px 25px;
+      &__logo{
+        &__icon{
+            width:30%;
+        }
+      }
+    }
+    &__banner-section{
+         height:600px;
+    }
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .infigrade{
+    &__header{
+      padding: 15px 25px;
+      &__logo{
+        &__icon{
+            width:30%;
+        }
+      }
+    }
+    &__banner-section{
+
+        height:600px;
+    }
+  }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .infigrade{
+    &__header{
+      padding: 15px 25px;
+      &__logo{
+        &__icon{
+            width:35%;
+        }
+      }
+    }
+    &__banner-section{
+
+        height:600px;
+    }
+  }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .infigrade{
+    &__header{
+      padding: 10px 10px;
+      &__logo{
+        &__icon{
+            width:75%;
+        }
+      }
+    }
+    &__banner-section{
+
+          height:600px;
+    }
+  }
+
 }

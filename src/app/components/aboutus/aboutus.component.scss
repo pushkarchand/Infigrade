@@ -47,9 +47,14 @@
 
 
 
-@media only screen and (min-width: 320px) {
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
   .aboutus{
-    height:120px;
+    height:405px;
   }
   .infigrade{
     &__modeoflearning{
@@ -61,30 +66,14 @@
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 480px) {
-  .infigrade{
-    &__banner-section{
-      height:300px;
-    }
-  }
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
 
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .infigrade{
-    &__banner-section{
-      height:200px;
-    }
-  }
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
   .aboutus{
-    height:240px;
+    height:405px;
   }
   .infigrade{
     &__modeoflearning{
@@ -94,11 +83,14 @@
       }
     }
   }
-
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 900px) {
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
   .aboutus{
     height:330px;
   }
@@ -111,3 +103,65 @@
     }
   }
 }
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .aboutus{
+    height:330px;
+  }
+  .infigrade{
+    &__modeoflearning{
+      &__title{
+        font-weight: 400;
+        color:#444;
+      }
+    }
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .aboutus{
+    height:200px;
+  }
+  .infigrade{
+    &__modeoflearning{
+      &__title{
+        font-weight: 400;
+        color:#444;
+      }
+    }
+  }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .aboutus{
+    height:155px;
+  }
+  .infigrade{
+    &__modeoflearning{
+      &__title{
+        font-weight: 400;
+        color:#444;
+      }
+    }
+  }
+}
+
+
+
+
