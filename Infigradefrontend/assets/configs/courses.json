@@ -1,0 +1,202 @@
+{
+  "courses":[
+                  {
+                    "name":"Digital Marketing",
+                    "type":"PROJECTMANAGMENT",
+                    "price":"10000",
+                    "discountedprice":"8999",
+                    "description":"The PMP training is intended to guarantee that you pass the PMP exam on the main attempt. Our hands-on preparing approach will help you to comprehend the workings of the five procedure gatherings and 10 learning territories characterized by the PMBOK Guide. We ensure you'll leave with all the readiness and certainty you have to vanquish the exam and acquire the PMP accreditation.The PMP training based preparing variations (Classroom, Live Online Training and Self-Paced Learning) include immersive, inside and out surveys of the spaces and undertakings definite in the PMP Exam Content Outline. The Online Self-learning variation includes inside and out recordings, reproduced tests, and other examination helps made in-house by a specialist group of affirmation holders. Note that the Online Self-learning variation is incorporated as a matter of course in your enrollment for the Traditional Classroom and the Live Online Training variations.",
+                    "displaytext":"Project Management Professional",
+                    "imageUrl":"assets/images/PMP1.png"
+                  },
+                  {
+                    "name":"National Institute of Securities markets ( NISM )",
+                    "type":"PROJECTMANAGMENT",
+                    "price":"10000",
+                    "discountedprice":"8999",
+                    "description":"",
+                    "displaytext":"Certified Associate in Project Management (CAPM)®",
+                    "imageUrl":"assets/images/capm1.png"
+                  },
+                  {
+                    "name":"Six Sigma",
+                    "type":"PROJECTMANAGMENT",
+                    "price":"10000",
+                    "discountedprice":"8999",
+                    "description":"",
+                    "displaytext":"PRINCE2® Foundation Training",
+                    "imageUrl":"assets/images/PRINCE2.png"
+                  },
+                  {
+                    "name":"Advance Excel",
+                    "type":"PROJECTMANAGMENT",
+                    "price":"10000",
+                    "discountedprice":"8999",
+                    "description":"",
+                    "displaytext":"",
+                    "imageUrl":"assets/images/PRINCE2.png"
+                  },
+                  {
+                    "name":"SPSS Tool (Statistical Package for Social Sciences)",
+                    "type":"PROJECTMANAGMENT",
+                    "price":"10000",
+                    "discountedprice":"8999",
+                    "description":"",
+                    "displaytext":"",
+                    "imageUrl":"assets/images/Microsoft_Office_Project1.png"
+                  },
+                  {
+                    "name":"Salesforce",
+                    "type":"PROJECTMANAGMENT",
+                    "price":"10000",
+                    "discountedprice":"8999",
+                    "description":"",
+                    "displaytext":"Portfolio Management Professional (PfMP) Training",
+                    "imageUrl":"assets/images/pfmp1.png"
+                  },
+                  {
+                    "name":"Selenium Training",
+                    "type":"PROJECTMANAGMENT",
+                    "price":"10000",
+                    "discountedprice":"8999",
+                    "description":"",
+                    "displaytext":"PRINCE2 Foundation and Practitioner Training",
+                    "imageUrl":"assets/images/PRINCE2.png"
+                  },
+                  {
+                    "name":"Human resources",
+                    "type":"PROJECTMANAGMENT",
+                    "price":"10000",
+                    "discountedprice":"8999",
+                    "description":"",
+                    "displaytext":"Program Management Professional (PgMP)® Training",
+                    "imageUrl":"assets/images/pgmp1.png"
+                  },
+                  {
+                    "name":"Python",
+                    "type":"QUALITYMANAGMENT",
+                    "price":"15999",
+                    "discountedprice":"10999",
+                    "description":"",
+                    "displaytext":"Lean Six Sigma Green Belt (SSGB) Training",
+                    "imageUrl":"assets/images/SSGB1.png"
+                  },
+                  {
+                    "name":"Internet of Things (IoT)",
+                    "type":"QUALITYMANAGMENT",
+                    "price":"19999",
+                    "discountedprice":"15999",
+                    "description":"",
+                    "displaytext":"Lean Six Sigma Black Belt (SSBB) Training",
+                    "imageUrl":"assets/images/SSBB1.png"
+                  },
+                  {
+                    "name":"Android App Development",
+                    "type":"QUALITYMANAGMENT",
+                    "price":"20000",
+                    "discountedprice":"16000",
+                    "description":"",
+                    "displaytext":"Minitab®",
+                    "imageUrl":"assets/images/minitab1.png"
+                  },
+                  {
+                    "name":"Cloud Computing",
+                    "type":"BIGDATAANALYTICS",
+                    "price":"",
+                    "discountedprice":"",
+                    "description":"",
+                    "displaytext":"Big Data Hadoop",
+                    "imageUrl":"assets/images/BD_hadoop1.png"
+                  },
+                  {
+                    "name":"Artificial Intelligence",
+                    "type":"BIGDATAANALYTICS",
+                    "price":"",
+                    "discountedprice":"",
+                    "description":"",
+                    "displaytext":"Data Science with R Programming",
+                    "imageUrl":"assets/images/r-data-science1.png"
+                  },
+                  {
+                    "name":"Robotics",
+                    "type":"BIGDATAANALYTICS",
+                    "price":"",
+                    "discountedprice":"",
+                    "description":"",
+                    "displaytext":"Data Analysis and Machine Learning using Python",
+                    "imageUrl":"assets/images/python-icon1.png"
+                  },
+                  {
+                    "name":"Ethical Hacking",
+                    "type":"CLOUDCOMPUTING",
+                    "price":"",
+                    "discountedprice":"",
+                    "description":"",
+                    "displaytext":"Planning, Emerging and Deploying cloud-based solutions using AWS",
+                    "imageUrl":"assets/images/aws1.png"
+                  },
+                  {
+                    "name":"Ruby on Rails (RoR)",
+                    "type":"CLOUDCOMPUTING",
+                    "price":"",
+                    "discountedprice":"",
+                    "description":"",
+                    "displaytext":"DevOps Training and Certification",
+                    "imageUrl":"assets/images/DevOps1.png"
+                  },
+                  {
+                    "name":"Big Data Analytics",
+                    "type":"CLOUDCOMPUTING",
+                    "price":"",
+                    "discountedprice":"",
+                    "description":"",
+                    "displaytext":"Microsoft Azure",
+                    "imageUrl":"assets/images/microsoft-azure-icon21.png"
+                  },
+                  {
+                    "name":"Data science with R Programming",
+                    "type":"CLOUDCOMPUTING",
+                    "price":"",
+                    "discountedprice":"",
+                    "description":"",
+                    "displaytext":"Google Cloud Platform",
+                    "imageUrl":"assets/images/google_cloud1.png"
+                  },
+                  {
+                    "name":"Communication Skills and Soft skills",
+                    "type":"ITSERVICEANDARCHITECTURE",
+                    "price":"",
+                    "discountedprice":"",
+                    "description":"",
+                    "displaytext":"ITIL® Foundation",
+                    "imageUrl":"assets/images/ITIL_F1.png"
+                  },
+                  {
+                    "name":"Civil CAD",
+                    "type":"ITSERVICEANDARCHITECTURE",
+                    "price":"",
+                    "discountedprice":"Civil CAD",
+                    "description":"",
+                    "displaytext":"",
+                    "imageUrl":"assets/images/ITIL_P1.png"
+                  },
+                  {
+                    "name":"Cyber Security",
+                    "type":"AGILEANDSCRUM",
+                    "price":"",
+                    "discountedprice":"",
+                    "description":"",
+                    "displaytext":"Cyber Security",
+                    "imageUrl":"assets/images/CSM1.png"
+                  },
+                  {
+                    "name":"Raspberry Pi",
+                    "type":"AGILEANDSCRUM",
+                    "price":"",
+                    "discountedprice":"",
+                    "description":"",
+                    "displaytext":"Raspberry Pi",
+                    "imageUrl":"assets/images/cspo1.png"
+                  }
+  ]
+}

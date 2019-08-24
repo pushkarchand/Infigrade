@@ -1,11 +1,11 @@
 .infigrade{
   height: 100%;
   &__header{
-    background: #f2f2f2;
+    background: #fff;
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
-    color: #3f9bee;
+    color: #3d3d3d;
     box-shadow: -3px 8px 9px 0 rgba(0,0,0,.13);
     &__logo{
         font-size: 20px;
@@ -24,7 +24,7 @@
           padding: 0 20px;
           font-size: 16px;
           font-weight: 600;
-          color: #5da8c3;
+          color: #3d3d3d;
         }
     }
   }
@@ -238,9 +238,14 @@
 .contacts{
   display: flex;
   justify-content: center;
+  align-items: center;
   &__item{
     margin: 0 10px 0 10px;
     font-size:20px;
+  }
+  &__number{
+    padding:0 0 0 10px;
+    margin: 0;
   }
 }
 
@@ -274,6 +279,18 @@
   font-size: 14px;
 }
 
+.address{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:#9E9E9E;
+  font-size: 14px;
+  div{
+    display: flex;
+    justify-content: center;
+  }
+}
+
 
 
 
@@ -288,7 +305,7 @@
       padding: 10px 60px;
       &__logo{
         &__icon{
-            width:25%;
+            width:15%;
         }
       }
     }

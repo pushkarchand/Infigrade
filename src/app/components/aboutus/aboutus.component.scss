@@ -1,15 +1,33 @@
 .aboutus{
-  background:url(../../../assets/images/aboutus.jpg);
-  background-size: contain;
+  background:url(../../../assets/images/banners/Newabout.png);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  height:450px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  color:#fff;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+  &__overlay{
+    opacity: .85;
+    background-image: linear-gradient(-180deg,rgba(0,0,0,.46) 0,#000 100%);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+  }
+  &__title{
+    color: #fff;
+    z-index: 1;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+  }
 }
 
 .infigrade{
+  z-index: 1;
   &__modeoflearning{
     display: flex;
     justify-content: center;
@@ -29,6 +47,7 @@
     }
     &__customcard{
       margin: 10px;
+      padding: 40px 0;
       &__image{
         height: 100px;
         width: 100px;
@@ -45,6 +64,10 @@
 }
 
 
+.bodysection{
+  z-index: 1;
+  padding: 50px 0;
+}
 
 
 /*
@@ -54,7 +77,7 @@
 
 @media (min-width: 1281px) {
   .aboutus{
-    height:405px;
+    height:460px;
   }
   .infigrade{
     &__modeoflearning{
