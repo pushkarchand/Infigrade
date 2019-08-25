@@ -277,6 +277,8 @@
   justify-content: center;
   color:#9E9E9E;
   font-size: 14px;
+  text-align: center;
+  padding: 10px 35px;
 }
 
 .address{
@@ -287,6 +289,8 @@
   font-size: 14px;
   div{
     display: flex;
+    padding: 10px 35px;
+    text-align: center;
     justify-content: center;
   }
 }
@@ -374,6 +378,11 @@
             width:30%;
         }
       }
+      &__moreinfo{
+        span{
+           font-size: 14px;
+        }
+      }
     }
     &__banner-section{
 
@@ -397,6 +406,11 @@
             width:35%;
         }
       }
+      &__moreinfo{
+        span{
+          font-size: 14px;
+       }
+      }
     }
     &__banner-section{
 
@@ -417,12 +431,16 @@
       padding: 10px 10px;
       &__logo{
         &__icon{
-            width:75%;
+            width:100%;
         }
+      }
+      &__moreinfo{
+        span{
+          font-size: 14px;
+       }
       }
     }
     &__banner-section{
-
           height:600px;
     }
   }
